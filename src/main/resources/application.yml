@@ -1,0 +1,23 @@
+server:
+  port: 8999
+
+mongodb:
+  host: 127.0.0.1
+  port: 3306
+  database: database
+  username: root
+  password: pass
+
+logging:
+  level:
+    root: INFO
+
+config:
+  # Tính lại theo ngày và mã
+  start-date: 2022-07-25 00:00:00
+  end-date: 2022-07-29 23:59:59
+  symbols: A32,AAA
+  # Tính lại tất cả
+#    start-date:
+#    end-date:
+#    symbols:
